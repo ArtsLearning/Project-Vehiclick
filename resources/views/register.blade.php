@@ -57,14 +57,14 @@
                 <h1 class="text-orange-500 font-bold text-xl">[LOGO]</h1>
             </div>
             <nav class="hidden md:flex space-x-8 text-white">
-                <a href="#" class="hover:text-orange-300">Beranda</a>
-                <a href="#" class="hover:text-orange-300">Produk</a>
-                <a href="#" class="hover:text-orange-300">Tentang</a>
+                <a href="/index" class="hover:text-orange-300">Beranda</a>
+                <a href="/produk" class="hover:text-orange-300">Produk</a>
+                <a href="/tentang" class="hover:text-orange-300">Tentang</a>
             </nav>
             <div class="flex space-x-4">
-                <button class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-1.5 rounded text-sm">Masuk</button>
-                <button class="bg-orange-300 hover:bg-orange-400 text-white px-4 py-1.5 rounded text-sm">Daftar</button>
-                <a href="#" class="text-white">
+                <a href="/login" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-1.5 rounded text-sm">Masuk</a>
+                <a href="/register" class="bg-orange-300 hover:bg-orange-400 text-white px-4 py-1.5 rounded text-sm">Daftar</a>
+                <a href="/profil" class="text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -89,7 +89,15 @@
                         </div>
 
                         <div class="mb-4">
+                            <input type="text" placeholder="Masukkan Username" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 text-sm">
+                        </div>
+
+                        <div class="mb-4">
                             <input type="email" placeholder="Masukkan Email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 text-sm">
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="text" placeholder="Masukkan No Telepon" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 text-sm">
                         </div>
 
                         <div class="mb-4">
@@ -100,14 +108,10 @@
                             <input type="password" placeholder="Konfirmasi Kata Sandi" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 text-sm">
                         </div>
 
-                        <div class="mb-4">
-                            <input type="text" placeholder="Masukkan No Telepon" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 text-sm">
-                        </div>
-
                         <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded font-medium transition duration-300 text-sm uppercase">DAFTAR</button>
 
                         <div class="mt-4 text-center text-gray-600 text-sm">
-                            <p>Sudah punya akun? <a href="#" class="text-blue-500 hover:underline">Ayo Masuk</a></p>
+                            <p>Sudah punya akun? <a href="\login" class="text-blue-500 hover:underline">Ayo Masuk</a></p>
                         </div>
                     </form>
 
